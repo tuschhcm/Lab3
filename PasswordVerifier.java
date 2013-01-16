@@ -25,7 +25,7 @@ public class PasswordVerifier {
       
       for(int i = 0; i < str.length(); i++) {
          currentChar = str.charAt(i);
-         if(currentChar.isUpperCase(currentChar)) {
+         if(Character.isUpperCase(currentChar)) {
             return true;
          }
       }
@@ -42,7 +42,7 @@ public class PasswordVerifier {
       
       for(int i = 0; i < str.length(); i++) {
          currentChar = str.charAt(i);
-         if(currentChar.isLowerCase(currentChar)) {
+         if(Character.isLowerCase(currentChar)) {
             return true;
          }
       }
@@ -59,7 +59,7 @@ public class PasswordVerifier {
       
       for(int i = 0; i < str.length(); i++) {
          currentChar = str.charAt(i);
-         if(currentChar.isDigit(currentChar)) {
+         if(Character.isDigit(currentChar)) {
             return true;
          }
       }
@@ -78,8 +78,8 @@ public class PasswordVerifier {
          
          currentChar = str.charAt(i);
          
-         if(currentChar.isDigit(currentChar) || 
-            currentChar.isLetter(currentChar) ||
+         if(Character.isDigit(currentChar) || 
+            Character.isLetter(currentChar) ||
             currentChar.equals('_')) {
             
             isLegal = true;
