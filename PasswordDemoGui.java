@@ -1,3 +1,14 @@
+//***********************************************************************
+// Project: Lab 3
+//
+// Author: Craig Tuschhoff
+//
+// Completion time: 3 hours total
+//
+// Honor Code: I pledge that this program represents my own program code.
+// I received help from (no one) in designing and debugging my program.
+//***********************************************************************
+
 import javax.swing.*;
 
 public class PasswordDemoGui {
